@@ -9,7 +9,7 @@ esphome:
       # Wakes up the desk and reports height
       - uart.write:
           id: handset_tx
-          data: [ 0x0 ]
+          data: [0x0]
   project:
     name: tj_horner.upsy_desky
     version: "4.0.2"
@@ -48,7 +48,7 @@ substitutions:
   default_height_units: "in" # Must be "in" or "cm"
 
 packages:
-  standing_desk: github://tjhorner/esphome-standing-desk/configs/template.yaml
+  standing_desk: github://wowu/esphome-standing-desk/configs/template.yaml
   addon_presets: !include addons/presets.yaml
   addon_stable_ids: !include addons/stable-ids.yaml
   addon_runtime_config: !include addons/runtime-config.yaml
