@@ -49,8 +49,8 @@ substitutions:
 
 packages:
   standing_desk: github://wowu/esphome-standing-desk/configs/template.yaml@309bfa2fb2dde5ad58fdff2a0924d0ddfbd5aad9
-  # addon_presets: !include addons/presets.yaml
-  # addon_stable_ids: !include addons/stable-ids.yaml
+  addon_presets: !include addons/presets.yaml
+  addon_stable_ids: !include addons/stable-ids.yaml
   addon_runtime_config: !include addons/runtime-config.yaml
 
 button:
