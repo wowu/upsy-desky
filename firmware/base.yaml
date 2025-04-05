@@ -4,12 +4,12 @@ esphome:
   friendly_name: "${friendly_name}"
   name_add_mac_suffix: true
   min_version: "2024.6.0"
-  on_boot:
-    then:
-      # Wakes up the desk and reports height
-      - uart.write:
-          id: handset_tx
-          data: [0x0]
+  # on_boot:
+  #   then:
+  #     # Wakes up the desk and reports height
+  #     - uart.write:
+  #         id: handset_tx
+  #         data: [0x0]
   project:
     name: tj_horner.upsy_desky
     version: "4.0.2"
