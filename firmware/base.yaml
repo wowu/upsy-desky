@@ -48,7 +48,7 @@ substitutions:
   default_height_units: "in" # Must be "in" or "cm"
 
 packages:
-  standing_desk: github://wowu/esphome-standing-desk/configs/template.yaml
+  standing_desk: github://wowu/esphome-standing-desk/configs/template.yaml@afdcec3f42a88bc6807c2e8559e66855fa765749
   # addon_presets: !include addons/presets.yaml
   # addon_stable_ids: !include addons/stable-ids.yaml
   addon_runtime_config: !include addons/runtime-config.yaml
